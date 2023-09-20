@@ -1,0 +1,83 @@
+
+body{
+    background-color: #1D1E20;
+
+}
+p, h1,h2,h3,h4{
+    color: #9AF0E8;
+}
+
+
+.sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+}
+
+/* Estilos para os links da barra lateral */
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #9AF0E8;
+    display: block;
+}
+
+/* Estilos para os links da barra lateral no hover */
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Estilos para o conteúdo principal (ajuste o padding conforme necessário) */
+.content {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.botaonovoprocesso{
+margin-top: -40px;
+margin-left: auto;
+margin-right: auto;
+background-color: #333333;
+color: #D1D4D6;
+border: none;
+width: 20%;
+border-radius: 10PX;
+justify-content: center;
+display: flex;
+padding: 5px;}
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    background-color: #333333;
+}
+.navbar-brand {
+    margin-left: auto;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-light .navbar-brand {
+    color: #54C5CE;}
+
+hr {
+        margin: 0;
+        color: inherit;
+        background-color: white;
+        border: 0;
+        opacity: 1;
+    }
